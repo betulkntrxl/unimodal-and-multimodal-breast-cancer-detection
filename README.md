@@ -31,6 +31,7 @@ Robustness analysis — evaluating how models perform under incomplete or missin
 
 
 **Models & Technologies**
+
 Python · Scikit-learn · TensorFlow/Keras · PyTorch · HuggingFace Transformers · EfficientNet · GANs
 
 The project includes models such as Logistic Regression, SVM, MLP, EfficientNet, CNNs, and transformer-based models, with the different approaches evaluated using metrics including accuracy, precision, recall, F1-score, and AUC.
@@ -49,6 +50,7 @@ Ablation & synthetic-data experiments:
 Individual modalities were removed or replaced with synthetic GAN-generated images to assess robustness and investigate the potential of synthetic medical data.
 
 **Key Findings**
+
 The results showed that unimodal clinical-data models could outperform multimodal configurations, demonstrating the importance and predictive strength of structured clinical metadata.
 
 The strongest overall model was an MLP trained on the WDBC dataset, achieving 99.04% accuracy and an F1-score of 0.9913.
