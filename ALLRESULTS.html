@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+        th, td { text-align: center; padding: 12px; border: 1px solid #ddd; }
+        th { background-color: #4CAF50; color: white; }
+        tr:nth-child(even) { background-color: #f2f2f2; }
+        .title { text-align: center; font-size: 24px; margin-bottom: 20px; }
+        .subtitle { text-align: center; font-size: 16px; color: #666; margin-bottom: 30px; }
+        .chart-container { margin-top: 40px; text-align: center; }
+        .chart-container img { max-width: 100%; height: auto; }
+        .radar-chart-container { margin-top: 60px; text-align: center; }
+        .radar-chart-container img { max-width: 80%; height: auto; }
+        .charts-section { margin-top: 50px; }
+        .section-title { text-align: center; font-size: 20px; margin-bottom: 20px; color: #333; }
+        .detailed-chart-container { margin-top: 60px; text-align: center; }
+        .detailed-chart-container img { max-width: 100%; height: auto; }
+    </style>
+</head>
+<body>
+    <div class="title">Breast Cancer Classification - All Model Comparison</div>
+    <div class="subtitle">Creation Date: 2025-04-02 21:44:54</div>
+    
+    <div class="table-section">
+        <div class="section-title">Metrics Table</div>
+        <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Modality</th>
+      <th>Model</th>
+      <th>Ablation</th>
+      <th>Training Ablation Severity</th>
+      <th>Testing Ablation Severity</th>
+      <th>Accuracy</th>
+      <th>F1-Score</th>
+      <th>Precision</th>
+      <th>Recall</th>
+      <th>AUC</th>
+      <th>Specificity</th>
+      <th>Training Loss</th>
+      <th>Testing Loss</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Image+Clinical</td>
+      <td>efficientnet_b0</td>
+      <td>transfer_learning</td>
+      <td>Base layers frozen (50%)</td>
+      <td>None</td>
+      <td>0.814815</td>
+      <td>0.810000</td>
+      <td>0.830000</td>
+      <td>0.850000</td>
+      <td>0.9200</td>
+      <td>0.920000</td>
+      <td>0.0664</td>
+      <td>0.2091</td>
+    </tr>
+    <tr>
+      <td>Text</td>
+      <td>text_only</td>
+      <td>ablation</td>
+      <td>Image modality removed</td>
+      <td>Text features only</td>
+      <td>0.962963</td>
+      <td>0.962420</td>
+      <td>0.966330</td>
+      <td>0.962963</td>
+      <td>0.9800</td>
+      <td>0.952381</td>
+      <td>0.1240</td>
+      <td>0.1520</td>
+    </tr>
+    <tr>
+      <td>Random Modality</td>
+      <td>random</td>
+      <td>ablation</td>
+      <td>50% random modality dropout</td>
+      <td>Full modality fusion</td>
+      <td>0.925926</td>
+      <td>0.930000</td>
+      <td>0.930000</td>
+      <td>0.930000</td>
+      <td>0.9500</td>
+      <td>0.935000</td>
+      <td>0.3314</td>
+      <td>0.2576</td>
+    </tr>
+    <tr>
+      <td>GAN-Generated</td>
+      <td>gan</td>
+      <td>ablation</td>
+      <td>GAN-generated images</td>
+      <td>Synthetic data evaluation</td>
+      <td>0.963000</td>
+      <td>0.960000</td>
+      <td>0.960000</td>
+      <td>0.960000</td>
+      <td>0.9800</td>
+      <td>0.950000</td>
+      <td>0.1052</td>
+      <td>0.1231</td>
+    </tr>
+    <tr>
+      <td>Image+LLM</td>
+      <td>EnhancedFusionNet</td>
+      <td>LLM analysis</td>
+      <td>Image-only model</td>
+      <td>LLM integration at inference</td>
+      <td>0.767000</td>
+      <td>0.773100</td>
+      <td>0.805100</td>
+      <td>0.766700</td>
+      <td>0.8500</td>
+      <td>0.820000</td>
+      <td>0.2890</td>
+      <td>0.3120</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+    
+    <div class="charts-section">
+        <div class="section-title">Performance Metrics Charts</div>
+        
+        <div class="chart-container">
+            <h3>Accuracy</h3>
+            <img src="charts/accuracy_chart.png" alt="Accuracy Comparison">
+        </div>
+        
+        <div class="chart-container">
+            <h3>F1-Score</h3>
+            <img src="charts/f1_score_chart.png" alt="F1-Score Comparison">
+        </div>
+        
+        <div class="chart-container">
+            <h3>Precision</h3>
+            <img src="charts/precision_chart.png" alt="Precision Comparison">
+        </div>
+        
+        <div class="chart-container">
+            <h3>Recall</h3>
+            <img src="charts/recall_chart.png" alt="Recall Comparison">
+        </div>
+        
+        <div class="chart-container">
+            <h3>AUC</h3>
+            <img src="charts/auc_chart.png" alt="AUC Comparison">
+        </div>
+        
+        <div class="chart-container">
+            <h3>Specificity</h3>
+            <img src="charts/specificity_chart.png" alt="Specificity Comparison">
+        </div>
+        
+        <div class="chart-container">
+            <h3>Training Loss</h3>
+            <img src="charts/training_loss_chart.png" alt="Training Loss Comparison">
+        </div>
+        
+        <div class="chart-container">
+            <h3>Testing Loss</h3>
+            <img src="charts/testing_loss_chart.png" alt="Testing Loss Comparison">
+        </div>
+        
+        <div class="radar-chart-container">
+            <h3>Model Performance Comparison (Radar Chart)</h3>
+            <img src="charts/radar_chart.png" alt="Radar Chart Comparison">
+        </div>
+    </div>
+    
+    <div class="charts-section">
+        <div class="section-title">EfficientNet-B0 Detailed Analysis</div>
+        
+        <div class="detailed-chart-container">
+            <h3>Training and Validation Metrics</h3>
+            <img src="training_history.png" alt="Training History">
+        </div>
+        
+        <div class="detailed-chart-container">
+            <h3>Model Specificity</h3>
+            <img src="specificity_history.png" alt="Specificity History">
+        </div>
+        
+        <div class="detailed-chart-container">
+            <h3>Confusion Matrix</h3>
+            <img src="confusion_matrix.png" alt="Confusion Matrix">
+        </div>
+        
+        <div class="detailed-chart-container">
+            <h3>ROC Curve</h3>
+            <img src="roc_curve.png" alt="ROC Curve">
+        </div>
+        
+        <div class="detailed-chart-container">
+            <h3>Model Performance Metrics</h3>
+            <img src="additional_metrics.png" alt="Additional Metrics">
+        </div>
+    </div>
+</body>
+</html>

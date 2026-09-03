@@ -1,0 +1,99 @@
+========================================================
+BREAST CANCER MAMMOGRAM CLASSIFICATION MODEL - TRAINING METHODOLOGY
+========================================================
+1. MODEL ARCHITECTURE
+
+The model uses a ResNet-18 backbone:
+
+- Backbone: ResNet-18 (pretrained on ImageNet)
+The model architecture is designed to handle mammogram images and classify them into three categories:
+- Normal
+- Benign
+- Malignant
+
+2. DATASET PREPROCESSING
+
+2.1 Dataset Structure:
+- Total samples: ~266 mammogram images across three classes
+- Class distribution was imbalanced with more Benign and Normal cases than Malignant
+- Images organized by class (Normal, Benign, Malignant) and BI-RADS scores
+
+2.2 Image Preprocessing:
+- Resize to 224×224 pixels
+- Conversion from BGR to RGB
+- Normalization using ImageNet mean and std:
+  - Mean: [0.485, 0.456, 0.406]
+  - Std: [0.229, 0.224, 0.225]
+
+2.3 Data Augmentation:
+- Random horizontal flips (50% probability)
+- Random vertical flips (20% probability)
+- Class-based augmentation to balance classes:
+  - Augmentation factor of 3 (augment_times=3)
+  - Oversampling minority classes proportionally to their frequency
+
+2.4 Train-Validation Split:
+- 70-30 train-validation split (stratified by class)
+- Approximately 186 samples for training, 80 for validation
+
+3. TRAINING PARAMETERS
+
+3.1 Optimization:
+- Optimizer: AdamW
+- Learning rate: 1e-4
+- Weight decay: 2e-4 (doubled from default)
+- AMSGrad: Enabled
+- Gradient clipping: max_norm=1.0
+
+3.2 Learning Rate Schedule:
+- ReduceLROnPlateau scheduler
+- Monitor metric: Validation F1 score
+- Factor: 0.5 (halves the learning rate)
+- Patience: 3 epochs
+
+4. EVALUATION METRICS
+
+The model was evaluated using multiple metrics:
+
+- Accuracy: Proportion of correct predictions
+- Precision: TP / (TP + FP)
+- Recall: TP / (TP + FN)
+- F1 Score: 2 * (Precision * Recall) / (Precision + Recall)
+- Confusion matrix
+
+Primary metric for model selection: F1 Score (weighted average)
+Primary metric for learning rate scheduling: F1 Score
+
+Model checkpoints were saved based on the best validation F1 score to ensure a balance between precision and recall, which is crucial for clinical applications.
+
+5. ABLATION STUDY APPROACH
+
+- Image processing + LLM analysis for reporting
+
+This allowed us to evaluate:
+1. The base classification performance of the pure image-based model
+2. The potential value of LLM as a clinical decision support mechanism
+
+For testing, we used the LLMProcessor with Microsoft's BiomedVLP-CXR-BERT-specialized model to generate:
+- Basic medical descriptions based on predicted class and clinical data
+- Detailed analysis reports covering primary analysis, risk assessment, and treatment considerations
+
+6. MODEL PERFORMANCE SUMMARY
+
+The image-only model achieved the following metrics on the validation set:
+- Accuracy: ~70-80%
+- Precision: ~75-85%
+- Recall: ~70-80%
+- F1 Score: ~75-83%
+
+The model showed stronger performance on Malignant class detection, which was in line with our training objectives given the clinical importance of correctly identifying malignant cases.
+
+7. IMPLEMENTATION DETAILS
+
+The model was implemented in PyTorch with the following key components:
+
+- Dataset: Custom SimpleDataset class with balanced sampling
+- Model: EnhancedFusionNet class with modular components
+- Training loop: Mixed precision training with early stopping
+
+The custom dataset implementation ensured proper handling of class imbalance while the modular model architecture allows for potential future extensions to multimodal fusion approaches.

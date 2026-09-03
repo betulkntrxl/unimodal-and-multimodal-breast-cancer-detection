@@ -1,0 +1,1055 @@
+===== BREAST CANCER CLASSIFICATION AND LLM ABLATION STUDY =====
+
+Test Date: 2025-03-13 09:42:33
+Number of samples tested per class: 10
+
+===== IMAGE TESTS AND LLM OUTPUTS =====
+
+
+
+==== NORMAL CLASS ====
+
+Sample 1: 104655_LCC.jpg
+True class: Normal
+Clinical data: {'Side': 'Left', 'View': 'CC', 'BI-RADS': 'BI-RADS-1'}
+
+MODEL PREDICTION: Benign (Confidence: 74.22%)
+Correct: NO
+
+LLM OUTPUT:
+Mammogram analysis: Unknown case, Left breast, CC view, BI-RADS BI-RADS-1. Typical findings and recommended follow-up.
+
+DETAILED LLM ANALYSIS:
+Perform a detailed analysis for a mammogram with the following characteristics: Left breast, CC view, BI-RADS BI-RADS-1. Include potential findings, differential diagnosis considerations, and recommended follow-up protocols based on ACR guidelines.
+
+COMPREHENSIVE REPORT:
+==== LLM Analysis Report ====
+Diagnosis: Benign (Confidence: 74.22%)
+
+Clinical Data:
+  - Side: Left
+  - View: CC
+  - BI-RADS: BI-RADS-1
+
+Detailed LLM Report:
+1. Primary Analysis: Mammogram analysis: Case diagnosed as Benign, Left breast, CC view, BI-RADS BI-RADS-1. What are the typical findings and recommended follow-up for this type of case?
+
+2. Risk Assessment: For a patient with BI-RADS BI-RADS-1 and diagnosis of Benign, what are the risk factors and statistical likelihood of malignancy?
+
+3. Treatment Considerations: What are the standard treatment protocols and patient management strategies for a Benign finding in a BI-RADS-1 categorized mammogram?
+
+
+
+--------------------------------------------------------------------------------
+
+Sample 2: 114044_LMLO.jpg
+True class: Normal
+Clinical data: {'Side': 'Left', 'View': 'MLO', 'BI-RADS': 'BI-RADS-1'}
+
+MODEL PREDICTION: Normal (Confidence: 71.48%)
+Correct: YES
+
+LLM OUTPUT:
+Mammogram analysis: Unknown case, Left breast, MLO view, BI-RADS BI-RADS-1. Typical findings and recommended follow-up.
+
+DETAILED LLM ANALYSIS:
+Perform a detailed analysis for a mammogram with the following characteristics: Left breast, MLO view, BI-RADS BI-RADS-1. Include potential findings, differential diagnosis considerations, and recommended follow-up protocols based on ACR guidelines.
+
+COMPREHENSIVE REPORT:
+==== LLM Analysis Report ====
+Diagnosis: Normal (Confidence: 71.48%)
+
+Clinical Data:
+  - Side: Left
+  - View: MLO
+  - BI-RADS: BI-RADS-1
+
+Detailed LLM Report:
+1. Primary Analysis: Mammogram analysis: Case diagnosed as Normal, Left breast, MLO view, BI-RADS BI-RADS-1. What are the typical findings and recommended follow-up for this type of case?
+
+2. Risk Assessment: For a patient with BI-RADS BI-RADS-1 and diagnosis of Normal, what are the risk factors and statistical likelihood of malignancy?
+
+3. Treatment Considerations: What are the standard treatment protocols and patient management strategies for a Normal finding in a BI-RADS-1 categorized mammogram?
+
+
+
+--------------------------------------------------------------------------------
+
+Sample 3: 103425_LCC.jpg
+True class: Normal
+Clinical data: {'Side': 'Left', 'View': 'CC', 'BI-RADS': 'BI-RADS-1'}
+
+MODEL PREDICTION: Normal (Confidence: 100.00%)
+Correct: YES
+
+LLM OUTPUT:
+Mammogram analysis: Unknown case, Left breast, CC view, BI-RADS BI-RADS-1. Typical findings and recommended follow-up.
+
+DETAILED LLM ANALYSIS:
+Perform a detailed analysis for a mammogram with the following characteristics: Left breast, CC view, BI-RADS BI-RADS-1. Include potential findings, differential diagnosis considerations, and recommended follow-up protocols based on ACR guidelines.
+
+COMPREHENSIVE REPORT:
+==== LLM Analysis Report ====
+Diagnosis: Normal (Confidence: 100.00%)
+
+Clinical Data:
+  - Side: Left
+  - View: CC
+  - BI-RADS: BI-RADS-1
+
+Detailed LLM Report:
+1. Primary Analysis: Mammogram analysis: Case diagnosed as Normal, Left breast, CC view, BI-RADS BI-RADS-1. What are the typical findings and recommended follow-up for this type of case?
+
+2. Risk Assessment: For a patient with BI-RADS BI-RADS-1 and diagnosis of Normal, what are the risk factors and statistical likelihood of malignancy?
+
+3. Treatment Considerations: What are the standard treatment protocols and patient management strategies for a Normal finding in a BI-RADS-1 categorized mammogram?
+
+
+
+--------------------------------------------------------------------------------
+
+Sample 4: 105037_LMLO.jpg
+True class: Normal
+Clinical data: {'Side': 'Left', 'View': 'MLO', 'BI-RADS': 'BI-RADS-1'}
+
+MODEL PREDICTION: Normal (Confidence: 99.61%)
+Correct: YES
+
+LLM OUTPUT:
+Mammogram analysis: Unknown case, Left breast, MLO view, BI-RADS BI-RADS-1. Typical findings and recommended follow-up.
+
+DETAILED LLM ANALYSIS:
+Perform a detailed analysis for a mammogram with the following characteristics: Left breast, MLO view, BI-RADS BI-RADS-1. Include potential findings, differential diagnosis considerations, and recommended follow-up protocols based on ACR guidelines.
+
+COMPREHENSIVE REPORT:
+==== LLM Analysis Report ====
+Diagnosis: Normal (Confidence: 99.61%)
+
+Clinical Data:
+  - Side: Left
+  - View: MLO
+  - BI-RADS: BI-RADS-1
+
+Detailed LLM Report:
+1. Primary Analysis: Mammogram analysis: Case diagnosed as Normal, Left breast, MLO view, BI-RADS BI-RADS-1. What are the typical findings and recommended follow-up for this type of case?
+
+2. Risk Assessment: For a patient with BI-RADS BI-RADS-1 and diagnosis of Normal, what are the risk factors and statistical likelihood of malignancy?
+
+3. Treatment Considerations: What are the standard treatment protocols and patient management strategies for a Normal finding in a BI-RADS-1 categorized mammogram?
+
+
+
+--------------------------------------------------------------------------------
+
+Sample 5: 124163_RCC.jpg
+True class: Normal
+Clinical data: {'Side': 'Right', 'View': 'CC', 'BI-RADS': 'BI-RADS-1'}
+
+MODEL PREDICTION: Normal (Confidence: 99.61%)
+Correct: YES
+
+LLM OUTPUT:
+Mammogram analysis: Unknown case, Right breast, CC view, BI-RADS BI-RADS-1. Typical findings and recommended follow-up.
+
+DETAILED LLM ANALYSIS:
+Perform a detailed analysis for a mammogram with the following characteristics: Right breast, CC view, BI-RADS BI-RADS-1. Include potential findings, differential diagnosis considerations, and recommended follow-up protocols based on ACR guidelines.
+
+COMPREHENSIVE REPORT:
+==== LLM Analysis Report ====
+Diagnosis: Normal (Confidence: 99.61%)
+
+Clinical Data:
+  - Side: Right
+  - View: CC
+  - BI-RADS: BI-RADS-1
+
+Detailed LLM Report:
+1. Primary Analysis: Mammogram analysis: Case diagnosed as Normal, Right breast, CC view, BI-RADS BI-RADS-1. What are the typical findings and recommended follow-up for this type of case?
+
+2. Risk Assessment: For a patient with BI-RADS BI-RADS-1 and diagnosis of Normal, what are the risk factors and statistical likelihood of malignancy?
+
+3. Treatment Considerations: What are the standard treatment protocols and patient management strategies for a Normal finding in a BI-RADS-1 categorized mammogram?
+
+
+
+--------------------------------------------------------------------------------
+
+Sample 6: 101721_LCC.jpg
+True class: Normal
+Clinical data: {'Side': 'Left', 'View': 'CC', 'BI-RADS': 'BI-RADS-1'}
+
+MODEL PREDICTION: Benign (Confidence: 73.05%)
+Correct: NO
+
+LLM OUTPUT:
+Mammogram analysis: Unknown case, Left breast, CC view, BI-RADS BI-RADS-1. Typical findings and recommended follow-up.
+
+DETAILED LLM ANALYSIS:
+Perform a detailed analysis for a mammogram with the following characteristics: Left breast, CC view, BI-RADS BI-RADS-1. Include potential findings, differential diagnosis considerations, and recommended follow-up protocols based on ACR guidelines.
+
+COMPREHENSIVE REPORT:
+==== LLM Analysis Report ====
+Diagnosis: Benign (Confidence: 73.05%)
+
+Clinical Data:
+  - Side: Left
+  - View: CC
+  - BI-RADS: BI-RADS-1
+
+Detailed LLM Report:
+1. Primary Analysis: Mammogram analysis: Case diagnosed as Benign, Left breast, CC view, BI-RADS BI-RADS-1. What are the typical findings and recommended follow-up for this type of case?
+
+2. Risk Assessment: For a patient with BI-RADS BI-RADS-1 and diagnosis of Benign, what are the risk factors and statistical likelihood of malignancy?
+
+3. Treatment Considerations: What are the standard treatment protocols and patient management strategies for a Benign finding in a BI-RADS-1 categorized mammogram?
+
+
+
+--------------------------------------------------------------------------------
+
+Sample 7: 127860_RCC.jpg
+True class: Normal
+Clinical data: {'Side': 'Right', 'View': 'CC', 'BI-RADS': 'BI-RADS-1'}
+
+MODEL PREDICTION: Normal (Confidence: 100.00%)
+Correct: YES
+
+LLM OUTPUT:
+Mammogram analysis: Unknown case, Right breast, CC view, BI-RADS BI-RADS-1. Typical findings and recommended follow-up.
+
+DETAILED LLM ANALYSIS:
+Perform a detailed analysis for a mammogram with the following characteristics: Right breast, CC view, BI-RADS BI-RADS-1. Include potential findings, differential diagnosis considerations, and recommended follow-up protocols based on ACR guidelines.
+
+COMPREHENSIVE REPORT:
+==== LLM Analysis Report ====
+Diagnosis: Normal (Confidence: 100.00%)
+
+Clinical Data:
+  - Side: Right
+  - View: CC
+  - BI-RADS: BI-RADS-1
+
+Detailed LLM Report:
+1. Primary Analysis: Mammogram analysis: Case diagnosed as Normal, Right breast, CC view, BI-RADS BI-RADS-1. What are the typical findings and recommended follow-up for this type of case?
+
+2. Risk Assessment: For a patient with BI-RADS BI-RADS-1 and diagnosis of Normal, what are the risk factors and statistical likelihood of malignancy?
+
+3. Treatment Considerations: What are the standard treatment protocols and patient management strategies for a Normal finding in a BI-RADS-1 categorized mammogram?
+
+
+
+--------------------------------------------------------------------------------
+
+Sample 8: 111125_RMLO.jpg
+True class: Normal
+Clinical data: {'Side': 'Right', 'View': 'MLO', 'BI-RADS': 'BI-RADS-1'}
+
+MODEL PREDICTION: Normal (Confidence: 100.00%)
+Correct: YES
+
+LLM OUTPUT:
+Mammogram analysis: Unknown case, Right breast, MLO view, BI-RADS BI-RADS-1. Typical findings and recommended follow-up.
+
+DETAILED LLM ANALYSIS:
+Perform a detailed analysis for a mammogram with the following characteristics: Right breast, MLO view, BI-RADS BI-RADS-1. Include potential findings, differential diagnosis considerations, and recommended follow-up protocols based on ACR guidelines.
+
+COMPREHENSIVE REPORT:
+==== LLM Analysis Report ====
+Diagnosis: Normal (Confidence: 100.00%)
+
+Clinical Data:
+  - Side: Right
+  - View: MLO
+  - BI-RADS: BI-RADS-1
+
+Detailed LLM Report:
+1. Primary Analysis: Mammogram analysis: Case diagnosed as Normal, Right breast, MLO view, BI-RADS BI-RADS-1. What are the typical findings and recommended follow-up for this type of case?
+
+2. Risk Assessment: For a patient with BI-RADS BI-RADS-1 and diagnosis of Normal, what are the risk factors and statistical likelihood of malignancy?
+
+3. Treatment Considerations: What are the standard treatment protocols and patient management strategies for a Normal finding in a BI-RADS-1 categorized mammogram?
+
+
+
+--------------------------------------------------------------------------------
+
+Sample 9: 104567_LMLO.jpg
+True class: Normal
+Clinical data: {'Side': 'Left', 'View': 'MLO', 'BI-RADS': 'BI-RADS-1'}
+
+MODEL PREDICTION: Normal (Confidence: 97.27%)
+Correct: YES
+
+LLM OUTPUT:
+Mammogram analysis: Unknown case, Left breast, MLO view, BI-RADS BI-RADS-1. Typical findings and recommended follow-up.
+
+DETAILED LLM ANALYSIS:
+Perform a detailed analysis for a mammogram with the following characteristics: Left breast, MLO view, BI-RADS BI-RADS-1. Include potential findings, differential diagnosis considerations, and recommended follow-up protocols based on ACR guidelines.
+
+COMPREHENSIVE REPORT:
+==== LLM Analysis Report ====
+Diagnosis: Normal (Confidence: 97.27%)
+
+Clinical Data:
+  - Side: Left
+  - View: MLO
+  - BI-RADS: BI-RADS-1
+
+Detailed LLM Report:
+1. Primary Analysis: Mammogram analysis: Case diagnosed as Normal, Left breast, MLO view, BI-RADS BI-RADS-1. What are the typical findings and recommended follow-up for this type of case?
+
+2. Risk Assessment: For a patient with BI-RADS BI-RADS-1 and diagnosis of Normal, what are the risk factors and statistical likelihood of malignancy?
+
+3. Treatment Considerations: What are the standard treatment protocols and patient management strategies for a Normal finding in a BI-RADS-1 categorized mammogram?
+
+
+
+--------------------------------------------------------------------------------
+
+Sample 10: 127860_LMLO.jpg
+True class: Normal
+Clinical data: {'Side': 'Left', 'View': 'MLO', 'BI-RADS': 'BI-RADS-1'}
+
+MODEL PREDICTION: Normal (Confidence: 81.64%)
+Correct: YES
+
+LLM OUTPUT:
+Mammogram analysis: Unknown case, Left breast, MLO view, BI-RADS BI-RADS-1. Typical findings and recommended follow-up.
+
+DETAILED LLM ANALYSIS:
+Perform a detailed analysis for a mammogram with the following characteristics: Left breast, MLO view, BI-RADS BI-RADS-1. Include potential findings, differential diagnosis considerations, and recommended follow-up protocols based on ACR guidelines.
+
+COMPREHENSIVE REPORT:
+==== LLM Analysis Report ====
+Diagnosis: Normal (Confidence: 81.64%)
+
+Clinical Data:
+  - Side: Left
+  - View: MLO
+  - BI-RADS: BI-RADS-1
+
+Detailed LLM Report:
+1. Primary Analysis: Mammogram analysis: Case diagnosed as Normal, Left breast, MLO view, BI-RADS BI-RADS-1. What are the typical findings and recommended follow-up for this type of case?
+
+2. Risk Assessment: For a patient with BI-RADS BI-RADS-1 and diagnosis of Normal, what are the risk factors and statistical likelihood of malignancy?
+
+3. Treatment Considerations: What are the standard treatment protocols and patient management strategies for a Normal finding in a BI-RADS-1 categorized mammogram?
+
+
+
+--------------------------------------------------------------------------------
+
+
+
+==== BENIGN CLASS ====
+
+Sample 1: 133948_L_CC.jpg
+True class: Benign
+Clinical data: {'Side': 'Left', 'View': 'CC', 'BI-RADS': 'BI-RADS-2'}
+
+MODEL PREDICTION: Benign (Confidence: 99.61%)
+Correct: YES
+
+LLM OUTPUT:
+Mammogram analysis: Unknown case, Left breast, CC view, BI-RADS BI-RADS-2. Typical findings and recommended follow-up.
+
+DETAILED LLM ANALYSIS:
+Perform a detailed analysis for a mammogram with the following characteristics: Left breast, CC view, BI-RADS BI-RADS-2. Include potential findings, differential diagnosis considerations, and recommended follow-up protocols based on ACR guidelines.
+
+COMPREHENSIVE REPORT:
+==== LLM Analysis Report ====
+Diagnosis: Benign (Confidence: 99.61%)
+
+Clinical Data:
+  - Side: Left
+  - View: CC
+  - BI-RADS: BI-RADS-2
+
+Detailed LLM Report:
+1. Primary Analysis: Mammogram analysis: Case diagnosed as Benign, Left breast, CC view, BI-RADS BI-RADS-2. What are the typical findings and recommended follow-up for this type of case?
+
+2. Risk Assessment: For a patient with BI-RADS BI-RADS-2 and diagnosis of Benign, what are the risk factors and statistical likelihood of malignancy?
+
+3. Treatment Considerations: What are the standard treatment protocols and patient management strategies for a Benign finding in a BI-RADS-2 categorized mammogram?
+
+
+
+--------------------------------------------------------------------------------
+
+Sample 2: 132555_L_CC.jpg
+True class: Benign
+Clinical data: {'Side': 'Left', 'View': 'CC', 'BI-RADS': 'BI-RADS-2'}
+
+MODEL PREDICTION: Benign (Confidence: 100.00%)
+Correct: YES
+
+LLM OUTPUT:
+Mammogram analysis: Unknown case, Left breast, CC view, BI-RADS BI-RADS-2. Typical findings and recommended follow-up.
+
+DETAILED LLM ANALYSIS:
+Perform a detailed analysis for a mammogram with the following characteristics: Left breast, CC view, BI-RADS BI-RADS-2. Include potential findings, differential diagnosis considerations, and recommended follow-up protocols based on ACR guidelines.
+
+COMPREHENSIVE REPORT:
+==== LLM Analysis Report ====
+Diagnosis: Benign (Confidence: 100.00%)
+
+Clinical Data:
+  - Side: Left
+  - View: CC
+  - BI-RADS: BI-RADS-2
+
+Detailed LLM Report:
+1. Primary Analysis: Mammogram analysis: Case diagnosed as Benign, Left breast, CC view, BI-RADS BI-RADS-2. What are the typical findings and recommended follow-up for this type of case?
+
+2. Risk Assessment: For a patient with BI-RADS BI-RADS-2 and diagnosis of Benign, what are the risk factors and statistical likelihood of malignancy?
+
+3. Treatment Considerations: What are the standard treatment protocols and patient management strategies for a Benign finding in a BI-RADS-2 categorized mammogram?
+
+
+
+--------------------------------------------------------------------------------
+
+Sample 3: 177686_R_MLO.jpg
+True class: Benign
+Clinical data: {'Side': 'Left', 'View': 'MLO', 'BI-RADS': 'BI-RADS-3'}
+
+MODEL PREDICTION: Benign (Confidence: 99.61%)
+Correct: YES
+
+LLM OUTPUT:
+Mammogram analysis: Unknown case, Left breast, MLO view, BI-RADS BI-RADS-3. Typical findings and recommended follow-up.
+
+DETAILED LLM ANALYSIS:
+Perform a detailed analysis for a mammogram with the following characteristics: Left breast, MLO view, BI-RADS BI-RADS-3. Include potential findings, differential diagnosis considerations, and recommended follow-up protocols based on ACR guidelines.
+
+COMPREHENSIVE REPORT:
+==== LLM Analysis Report ====
+Diagnosis: Benign (Confidence: 99.61%)
+
+Clinical Data:
+  - Side: Left
+  - View: MLO
+  - BI-RADS: BI-RADS-3
+
+Detailed LLM Report:
+1. Primary Analysis: Mammogram analysis: Case diagnosed as Benign, Left breast, MLO view, BI-RADS BI-RADS-3. What are the typical findings and recommended follow-up for this type of case?
+
+2. Risk Assessment: For a patient with BI-RADS BI-RADS-3 and diagnosis of Benign, what are the risk factors and statistical likelihood of malignancy?
+
+3. Treatment Considerations: What are the standard treatment protocols and patient management strategies for a Benign finding in a BI-RADS-3 categorized mammogram?
+
+
+
+--------------------------------------------------------------------------------
+
+Sample 4: 144326_L_MLO.jpg
+True class: Benign
+Clinical data: {'Side': 'Left', 'View': 'MLO', 'BI-RADS': 'BI-RADS-3'}
+
+MODEL PREDICTION: Benign (Confidence: 94.53%)
+Correct: YES
+
+LLM OUTPUT:
+Mammogram analysis: Unknown case, Left breast, MLO view, BI-RADS BI-RADS-3. Typical findings and recommended follow-up.
+
+DETAILED LLM ANALYSIS:
+Perform a detailed analysis for a mammogram with the following characteristics: Left breast, MLO view, BI-RADS BI-RADS-3. Include potential findings, differential diagnosis considerations, and recommended follow-up protocols based on ACR guidelines.
+
+COMPREHENSIVE REPORT:
+==== LLM Analysis Report ====
+Diagnosis: Benign (Confidence: 94.53%)
+
+Clinical Data:
+  - Side: Left
+  - View: MLO
+  - BI-RADS: BI-RADS-3
+
+Detailed LLM Report:
+1. Primary Analysis: Mammogram analysis: Case diagnosed as Benign, Left breast, MLO view, BI-RADS BI-RADS-3. What are the typical findings and recommended follow-up for this type of case?
+
+2. Risk Assessment: For a patient with BI-RADS BI-RADS-3 and diagnosis of Benign, what are the risk factors and statistical likelihood of malignancy?
+
+3. Treatment Considerations: What are the standard treatment protocols and patient management strategies for a Benign finding in a BI-RADS-3 categorized mammogram?
+
+
+
+--------------------------------------------------------------------------------
+
+Sample 5: 142798_R_MLO.jpg
+True class: Benign
+Clinical data: {'Side': 'Left', 'View': 'MLO', 'BI-RADS': 'BI-RADS-3'}
+
+MODEL PREDICTION: Benign (Confidence: 100.00%)
+Correct: YES
+
+LLM OUTPUT:
+Mammogram analysis: Unknown case, Left breast, MLO view, BI-RADS BI-RADS-3. Typical findings and recommended follow-up.
+
+DETAILED LLM ANALYSIS:
+Perform a detailed analysis for a mammogram with the following characteristics: Left breast, MLO view, BI-RADS BI-RADS-3. Include potential findings, differential diagnosis considerations, and recommended follow-up protocols based on ACR guidelines.
+
+COMPREHENSIVE REPORT:
+==== LLM Analysis Report ====
+Diagnosis: Benign (Confidence: 100.00%)
+
+Clinical Data:
+  - Side: Left
+  - View: MLO
+  - BI-RADS: BI-RADS-3
+
+Detailed LLM Report:
+1. Primary Analysis: Mammogram analysis: Case diagnosed as Benign, Left breast, MLO view, BI-RADS BI-RADS-3. What are the typical findings and recommended follow-up for this type of case?
+
+2. Risk Assessment: For a patient with BI-RADS BI-RADS-3 and diagnosis of Benign, what are the risk factors and statistical likelihood of malignancy?
+
+3. Treatment Considerations: What are the standard treatment protocols and patient management strategies for a Benign finding in a BI-RADS-3 categorized mammogram?
+
+
+
+--------------------------------------------------------------------------------
+
+Sample 6: 107145_L_MLO.jpg
+True class: Benign
+Clinical data: {'Side': 'Left', 'View': 'MLO', 'BI-RADS': 'BI-RADS-3'}
+
+MODEL PREDICTION: Normal (Confidence: 100.00%)
+Correct: NO
+
+LLM OUTPUT:
+Mammogram analysis: Unknown case, Left breast, MLO view, BI-RADS BI-RADS-3. Typical findings and recommended follow-up.
+
+DETAILED LLM ANALYSIS:
+Perform a detailed analysis for a mammogram with the following characteristics: Left breast, MLO view, BI-RADS BI-RADS-3. Include potential findings, differential diagnosis considerations, and recommended follow-up protocols based on ACR guidelines.
+
+COMPREHENSIVE REPORT:
+==== LLM Analysis Report ====
+Diagnosis: Normal (Confidence: 100.00%)
+
+Clinical Data:
+  - Side: Left
+  - View: MLO
+  - BI-RADS: BI-RADS-3
+
+Detailed LLM Report:
+1. Primary Analysis: Mammogram analysis: Case diagnosed as Normal, Left breast, MLO view, BI-RADS BI-RADS-3. What are the typical findings and recommended follow-up for this type of case?
+
+2. Risk Assessment: For a patient with BI-RADS BI-RADS-3 and diagnosis of Normal, what are the risk factors and statistical likelihood of malignancy?
+
+3. Treatment Considerations: What are the standard treatment protocols and patient management strategies for a Normal finding in a BI-RADS-3 categorized mammogram?
+
+
+
+--------------------------------------------------------------------------------
+
+Sample 7: 178782_L_CC.jpg
+True class: Benign
+Clinical data: {'Side': 'Left', 'View': 'CC', 'BI-RADS': 'BI-RADS-3'}
+
+MODEL PREDICTION: Benign (Confidence: 99.61%)
+Correct: YES
+
+LLM OUTPUT:
+Mammogram analysis: Unknown case, Left breast, CC view, BI-RADS BI-RADS-3. Typical findings and recommended follow-up.
+
+DETAILED LLM ANALYSIS:
+Perform a detailed analysis for a mammogram with the following characteristics: Left breast, CC view, BI-RADS BI-RADS-3. Include potential findings, differential diagnosis considerations, and recommended follow-up protocols based on ACR guidelines.
+
+COMPREHENSIVE REPORT:
+==== LLM Analysis Report ====
+Diagnosis: Benign (Confidence: 99.61%)
+
+Clinical Data:
+  - Side: Left
+  - View: CC
+  - BI-RADS: BI-RADS-3
+
+Detailed LLM Report:
+1. Primary Analysis: Mammogram analysis: Case diagnosed as Benign, Left breast, CC view, BI-RADS BI-RADS-3. What are the typical findings and recommended follow-up for this type of case?
+
+2. Risk Assessment: For a patient with BI-RADS BI-RADS-3 and diagnosis of Benign, what are the risk factors and statistical likelihood of malignancy?
+
+3. Treatment Considerations: What are the standard treatment protocols and patient management strategies for a Benign finding in a BI-RADS-3 categorized mammogram?
+
+
+
+--------------------------------------------------------------------------------
+
+Sample 8: 108233_L_CC.jpg
+True class: Benign
+Clinical data: {'Side': 'Left', 'View': 'CC', 'BI-RADS': 'BI-RADS-3'}
+
+MODEL PREDICTION: Benign (Confidence: 100.00%)
+Correct: YES
+
+LLM OUTPUT:
+Mammogram analysis: Unknown case, Left breast, CC view, BI-RADS BI-RADS-3. Typical findings and recommended follow-up.
+
+DETAILED LLM ANALYSIS:
+Perform a detailed analysis for a mammogram with the following characteristics: Left breast, CC view, BI-RADS BI-RADS-3. Include potential findings, differential diagnosis considerations, and recommended follow-up protocols based on ACR guidelines.
+
+COMPREHENSIVE REPORT:
+==== LLM Analysis Report ====
+Diagnosis: Benign (Confidence: 100.00%)
+
+Clinical Data:
+  - Side: Left
+  - View: CC
+  - BI-RADS: BI-RADS-3
+
+Detailed LLM Report:
+1. Primary Analysis: Mammogram analysis: Case diagnosed as Benign, Left breast, CC view, BI-RADS BI-RADS-3. What are the typical findings and recommended follow-up for this type of case?
+
+2. Risk Assessment: For a patient with BI-RADS BI-RADS-3 and diagnosis of Benign, what are the risk factors and statistical likelihood of malignancy?
+
+3. Treatment Considerations: What are the standard treatment protocols and patient management strategies for a Benign finding in a BI-RADS-3 categorized mammogram?
+
+
+
+--------------------------------------------------------------------------------
+
+Sample 9: 156220_R_CC.jpg
+True class: Benign
+Clinical data: {'Side': 'Right', 'View': 'CC', 'BI-RADS': 'BI-RADS-3'}
+
+MODEL PREDICTION: Benign (Confidence: 99.61%)
+Correct: YES
+
+LLM OUTPUT:
+Mammogram analysis: Unknown case, Right breast, CC view, BI-RADS BI-RADS-3. Typical findings and recommended follow-up.
+
+DETAILED LLM ANALYSIS:
+Perform a detailed analysis for a mammogram with the following characteristics: Right breast, CC view, BI-RADS BI-RADS-3. Include potential findings, differential diagnosis considerations, and recommended follow-up protocols based on ACR guidelines.
+
+COMPREHENSIVE REPORT:
+==== LLM Analysis Report ====
+Diagnosis: Benign (Confidence: 99.61%)
+
+Clinical Data:
+  - Side: Right
+  - View: CC
+  - BI-RADS: BI-RADS-3
+
+Detailed LLM Report:
+1. Primary Analysis: Mammogram analysis: Case diagnosed as Benign, Right breast, CC view, BI-RADS BI-RADS-3. What are the typical findings and recommended follow-up for this type of case?
+
+2. Risk Assessment: For a patient with BI-RADS BI-RADS-3 and diagnosis of Benign, what are the risk factors and statistical likelihood of malignancy?
+
+3. Treatment Considerations: What are the standard treatment protocols and patient management strategies for a Benign finding in a BI-RADS-3 categorized mammogram?
+
+
+
+--------------------------------------------------------------------------------
+
+Sample 10: 123666_L_MLO.jpg
+True class: Benign
+Clinical data: {'Side': 'Left', 'View': 'MLO', 'BI-RADS': 'BI-RADS-3'}
+
+MODEL PREDICTION: Normal (Confidence: 99.61%)
+Correct: NO
+
+LLM OUTPUT:
+Mammogram analysis: Unknown case, Left breast, MLO view, BI-RADS BI-RADS-3. Typical findings and recommended follow-up.
+
+DETAILED LLM ANALYSIS:
+Perform a detailed analysis for a mammogram with the following characteristics: Left breast, MLO view, BI-RADS BI-RADS-3. Include potential findings, differential diagnosis considerations, and recommended follow-up protocols based on ACR guidelines.
+
+COMPREHENSIVE REPORT:
+==== LLM Analysis Report ====
+Diagnosis: Normal (Confidence: 99.61%)
+
+Clinical Data:
+  - Side: Left
+  - View: MLO
+  - BI-RADS: BI-RADS-3
+
+Detailed LLM Report:
+1. Primary Analysis: Mammogram analysis: Case diagnosed as Normal, Left breast, MLO view, BI-RADS BI-RADS-3. What are the typical findings and recommended follow-up for this type of case?
+
+2. Risk Assessment: For a patient with BI-RADS BI-RADS-3 and diagnosis of Normal, what are the risk factors and statistical likelihood of malignancy?
+
+3. Treatment Considerations: What are the standard treatment protocols and patient management strategies for a Normal finding in a BI-RADS-3 categorized mammogram?
+
+
+
+--------------------------------------------------------------------------------
+
+
+
+==== MALIGNANT CLASS ====
+
+Sample 1: 126808_L_CC.jpg
+True class: Malignant
+Clinical data: {'Side': 'Left', 'View': 'CC', 'BI-RADS': 'BI-RADS-5'}
+
+MODEL PREDICTION: Malignant (Confidence: 90.23%)
+Correct: YES
+
+LLM OUTPUT:
+Mammogram analysis: Unknown case, Left breast, CC view, BI-RADS BI-RADS-5. Typical findings and recommended follow-up.
+
+DETAILED LLM ANALYSIS:
+Perform a detailed analysis for a mammogram with the following characteristics: Left breast, CC view, BI-RADS BI-RADS-5. Include potential findings, differential diagnosis considerations, and recommended follow-up protocols based on ACR guidelines.
+
+COMPREHENSIVE REPORT:
+==== LLM Analysis Report ====
+Diagnosis: Malignant (Confidence: 90.23%)
+
+Clinical Data:
+  - Side: Left
+  - View: CC
+  - BI-RADS: BI-RADS-5
+
+Detailed LLM Report:
+1. Primary Analysis: Mammogram analysis: Case diagnosed as Malignant, Left breast, CC view, BI-RADS BI-RADS-5. What are the typical findings and recommended follow-up for this type of case?
+
+2. Risk Assessment: For a patient with BI-RADS BI-RADS-5 and diagnosis of Malignant, what are the risk factors and statistical likelihood of malignancy?
+
+3. Treatment Considerations: What are the standard treatment protocols and patient management strategies for a Malignant finding in a BI-RADS-5 categorized mammogram?
+
+
+
+--------------------------------------------------------------------------------
+
+Sample 2: 110832_L_MLO.jpg
+True class: Malignant
+Clinical data: {'Side': 'Left', 'View': 'MLO', 'BI-RADS': 'BI-RADS-4'}
+
+MODEL PREDICTION: Malignant (Confidence: 100.00%)
+Correct: YES
+
+LLM OUTPUT:
+Mammogram analysis: Unknown case, Left breast, MLO view, BI-RADS BI-RADS-4. Typical findings and recommended follow-up.
+
+DETAILED LLM ANALYSIS:
+Perform a detailed analysis for a mammogram with the following characteristics: Left breast, MLO view, BI-RADS BI-RADS-4. Include potential findings, differential diagnosis considerations, and recommended follow-up protocols based on ACR guidelines.
+
+COMPREHENSIVE REPORT:
+==== LLM Analysis Report ====
+Diagnosis: Malignant (Confidence: 100.00%)
+
+Clinical Data:
+  - Side: Left
+  - View: MLO
+  - BI-RADS: BI-RADS-4
+
+Detailed LLM Report:
+1. Primary Analysis: Mammogram analysis: Case diagnosed as Malignant, Left breast, MLO view, BI-RADS BI-RADS-4. What are the typical findings and recommended follow-up for this type of case?
+
+2. Risk Assessment: For a patient with BI-RADS BI-RADS-4 and diagnosis of Malignant, what are the risk factors and statistical likelihood of malignancy?
+
+3. Treatment Considerations: What are the standard treatment protocols and patient management strategies for a Malignant finding in a BI-RADS-4 categorized mammogram?
+
+
+
+--------------------------------------------------------------------------------
+
+Sample 3: 103482_R_MLO.jpg
+True class: Malignant
+Clinical data: {'Side': 'Right', 'View': 'MLO', 'BI-RADS': 'BI-RADS-5'}
+
+MODEL PREDICTION: Malignant (Confidence: 100.00%)
+Correct: YES
+
+LLM OUTPUT:
+Mammogram analysis: Unknown case, Right breast, MLO view, BI-RADS BI-RADS-5. Typical findings and recommended follow-up.
+
+DETAILED LLM ANALYSIS:
+Perform a detailed analysis for a mammogram with the following characteristics: Right breast, MLO view, BI-RADS BI-RADS-5. Include potential findings, differential diagnosis considerations, and recommended follow-up protocols based on ACR guidelines.
+
+COMPREHENSIVE REPORT:
+==== LLM Analysis Report ====
+Diagnosis: Malignant (Confidence: 100.00%)
+
+Clinical Data:
+  - Side: Right
+  - View: MLO
+  - BI-RADS: BI-RADS-5
+
+Detailed LLM Report:
+1. Primary Analysis: Mammogram analysis: Case diagnosed as Malignant, Right breast, MLO view, BI-RADS BI-RADS-5. What are the typical findings and recommended follow-up for this type of case?
+
+2. Risk Assessment: For a patient with BI-RADS BI-RADS-5 and diagnosis of Malignant, what are the risk factors and statistical likelihood of malignancy?
+
+3. Treatment Considerations: What are the standard treatment protocols and patient management strategies for a Malignant finding in a BI-RADS-5 categorized mammogram?
+
+
+
+--------------------------------------------------------------------------------
+
+Sample 4: 195740_R_CC.jpg
+True class: Malignant
+Clinical data: {'Side': 'Left', 'View': 'CC', 'BI-RADS': 'BI-RADS-4'}
+
+MODEL PREDICTION: Malignant (Confidence: 100.00%)
+Correct: YES
+
+LLM OUTPUT:
+Mammogram analysis: Unknown case, Left breast, CC view, BI-RADS BI-RADS-4. Typical findings and recommended follow-up.
+
+DETAILED LLM ANALYSIS:
+Perform a detailed analysis for a mammogram with the following characteristics: Left breast, CC view, BI-RADS BI-RADS-4. Include potential findings, differential diagnosis considerations, and recommended follow-up protocols based on ACR guidelines.
+
+COMPREHENSIVE REPORT:
+==== LLM Analysis Report ====
+Diagnosis: Malignant (Confidence: 100.00%)
+
+Clinical Data:
+  - Side: Left
+  - View: CC
+  - BI-RADS: BI-RADS-4
+
+Detailed LLM Report:
+1. Primary Analysis: Mammogram analysis: Case diagnosed as Malignant, Left breast, CC view, BI-RADS BI-RADS-4. What are the typical findings and recommended follow-up for this type of case?
+
+2. Risk Assessment: For a patient with BI-RADS BI-RADS-4 and diagnosis of Malignant, what are the risk factors and statistical likelihood of malignancy?
+
+3. Treatment Considerations: What are the standard treatment protocols and patient management strategies for a Malignant finding in a BI-RADS-4 categorized mammogram?
+
+
+
+--------------------------------------------------------------------------------
+
+Sample 5: 130004_L_CC.jpg
+True class: Malignant
+Clinical data: {'Side': 'Left', 'View': 'CC', 'BI-RADS': 'BI-RADS-4'}
+
+MODEL PREDICTION: Benign (Confidence: 93.75%)
+Correct: NO
+
+LLM OUTPUT:
+Mammogram analysis: Unknown case, Left breast, CC view, BI-RADS BI-RADS-4. Typical findings and recommended follow-up.
+
+DETAILED LLM ANALYSIS:
+Perform a detailed analysis for a mammogram with the following characteristics: Left breast, CC view, BI-RADS BI-RADS-4. Include potential findings, differential diagnosis considerations, and recommended follow-up protocols based on ACR guidelines.
+
+COMPREHENSIVE REPORT:
+==== LLM Analysis Report ====
+Diagnosis: Benign (Confidence: 93.75%)
+
+Clinical Data:
+  - Side: Left
+  - View: CC
+  - BI-RADS: BI-RADS-4
+
+Detailed LLM Report:
+1. Primary Analysis: Mammogram analysis: Case diagnosed as Benign, Left breast, CC view, BI-RADS BI-RADS-4. What are the typical findings and recommended follow-up for this type of case?
+
+2. Risk Assessment: For a patient with BI-RADS BI-RADS-4 and diagnosis of Benign, what are the risk factors and statistical likelihood of malignancy?
+
+3. Treatment Considerations: What are the standard treatment protocols and patient management strategies for a Benign finding in a BI-RADS-4 categorized mammogram?
+
+
+
+--------------------------------------------------------------------------------
+
+Sample 6: 189474_R_CC.jpg
+True class: Malignant
+Clinical data: {'Side': 'Right', 'View': 'CC', 'BI-RADS': 'BI-RADS-4'}
+
+MODEL PREDICTION: Malignant (Confidence: 100.00%)
+Correct: YES
+
+LLM OUTPUT:
+Mammogram analysis: Unknown case, Right breast, CC view, BI-RADS BI-RADS-4. Typical findings and recommended follow-up.
+
+DETAILED LLM ANALYSIS:
+Perform a detailed analysis for a mammogram with the following characteristics: Right breast, CC view, BI-RADS BI-RADS-4. Include potential findings, differential diagnosis considerations, and recommended follow-up protocols based on ACR guidelines.
+
+COMPREHENSIVE REPORT:
+==== LLM Analysis Report ====
+Diagnosis: Malignant (Confidence: 100.00%)
+
+Clinical Data:
+  - Side: Right
+  - View: CC
+  - BI-RADS: BI-RADS-4
+
+Detailed LLM Report:
+1. Primary Analysis: Mammogram analysis: Case diagnosed as Malignant, Right breast, CC view, BI-RADS BI-RADS-4. What are the typical findings and recommended follow-up for this type of case?
+
+2. Risk Assessment: For a patient with BI-RADS BI-RADS-4 and diagnosis of Malignant, what are the risk factors and statistical likelihood of malignancy?
+
+3. Treatment Considerations: What are the standard treatment protocols and patient management strategies for a Malignant finding in a BI-RADS-4 categorized mammogram?
+
+
+
+--------------------------------------------------------------------------------
+
+Sample 7: 195179_R_MLO.jpg
+True class: Malignant
+Clinical data: {'Side': 'Right', 'View': 'MLO', 'BI-RADS': 'BI-RADS-5'}
+
+MODEL PREDICTION: Benign (Confidence: 97.66%)
+Correct: NO
+
+LLM OUTPUT:
+Mammogram analysis: Unknown case, Right breast, MLO view, BI-RADS BI-RADS-5. Typical findings and recommended follow-up.
+
+DETAILED LLM ANALYSIS:
+Perform a detailed analysis for a mammogram with the following characteristics: Right breast, MLO view, BI-RADS BI-RADS-5. Include potential findings, differential diagnosis considerations, and recommended follow-up protocols based on ACR guidelines.
+
+COMPREHENSIVE REPORT:
+==== LLM Analysis Report ====
+Diagnosis: Benign (Confidence: 97.66%)
+
+Clinical Data:
+  - Side: Right
+  - View: MLO
+  - BI-RADS: BI-RADS-5
+
+Detailed LLM Report:
+1. Primary Analysis: Mammogram analysis: Case diagnosed as Benign, Right breast, MLO view, BI-RADS BI-RADS-5. What are the typical findings and recommended follow-up for this type of case?
+
+2. Risk Assessment: For a patient with BI-RADS BI-RADS-5 and diagnosis of Benign, what are the risk factors and statistical likelihood of malignancy?
+
+3. Treatment Considerations: What are the standard treatment protocols and patient management strategies for a Benign finding in a BI-RADS-5 categorized mammogram?
+
+
+
+--------------------------------------------------------------------------------
+
+Sample 8: 126808_L_MLO.jpg
+True class: Malignant
+Clinical data: {'Side': 'Left', 'View': 'MLO', 'BI-RADS': 'BI-RADS-5'}
+
+MODEL PREDICTION: Benign (Confidence: 87.11%)
+Correct: NO
+
+LLM OUTPUT:
+Mammogram analysis: Unknown case, Left breast, MLO view, BI-RADS BI-RADS-5. Typical findings and recommended follow-up.
+
+DETAILED LLM ANALYSIS:
+Perform a detailed analysis for a mammogram with the following characteristics: Left breast, MLO view, BI-RADS BI-RADS-5. Include potential findings, differential diagnosis considerations, and recommended follow-up protocols based on ACR guidelines.
+
+COMPREHENSIVE REPORT:
+==== LLM Analysis Report ====
+Diagnosis: Benign (Confidence: 87.11%)
+
+Clinical Data:
+  - Side: Left
+  - View: MLO
+  - BI-RADS: BI-RADS-5
+
+Detailed LLM Report:
+1. Primary Analysis: Mammogram analysis: Case diagnosed as Benign, Left breast, MLO view, BI-RADS BI-RADS-5. What are the typical findings and recommended follow-up for this type of case?
+
+2. Risk Assessment: For a patient with BI-RADS BI-RADS-5 and diagnosis of Benign, what are the risk factors and statistical likelihood of malignancy?
+
+3. Treatment Considerations: What are the standard treatment protocols and patient management strategies for a Benign finding in a BI-RADS-5 categorized mammogram?
+
+
+
+--------------------------------------------------------------------------------
+
+Sample 9: 190282_R_CC.jpg
+True class: Malignant
+Clinical data: {'Side': 'Right', 'View': 'CC', 'BI-RADS': 'BI-RADS-5'}
+
+MODEL PREDICTION: Malignant (Confidence: 100.00%)
+Correct: YES
+
+LLM OUTPUT:
+Mammogram analysis: Unknown case, Right breast, CC view, BI-RADS BI-RADS-5. Typical findings and recommended follow-up.
+
+DETAILED LLM ANALYSIS:
+Perform a detailed analysis for a mammogram with the following characteristics: Right breast, CC view, BI-RADS BI-RADS-5. Include potential findings, differential diagnosis considerations, and recommended follow-up protocols based on ACR guidelines.
+
+COMPREHENSIVE REPORT:
+==== LLM Analysis Report ====
+Diagnosis: Malignant (Confidence: 100.00%)
+
+Clinical Data:
+  - Side: Right
+  - View: CC
+  - BI-RADS: BI-RADS-5
+
+Detailed LLM Report:
+1. Primary Analysis: Mammogram analysis: Case diagnosed as Malignant, Right breast, CC view, BI-RADS BI-RADS-5. What are the typical findings and recommended follow-up for this type of case?
+
+2. Risk Assessment: For a patient with BI-RADS BI-RADS-5 and diagnosis of Malignant, what are the risk factors and statistical likelihood of malignancy?
+
+3. Treatment Considerations: What are the standard treatment protocols and patient management strategies for a Malignant finding in a BI-RADS-5 categorized mammogram?
+
+
+
+--------------------------------------------------------------------------------
+
+Sample 10: 113646_R_MLO.jpg
+True class: Malignant
+Clinical data: {'Side': 'Right', 'View': 'MLO', 'BI-RADS': 'BI-RADS-4'}
+
+MODEL PREDICTION: Malignant (Confidence: 100.00%)
+Correct: YES
+
+LLM OUTPUT:
+Mammogram analysis: Unknown case, Right breast, MLO view, BI-RADS BI-RADS-4. Typical findings and recommended follow-up.
+
+DETAILED LLM ANALYSIS:
+Perform a detailed analysis for a mammogram with the following characteristics: Right breast, MLO view, BI-RADS BI-RADS-4. Include potential findings, differential diagnosis considerations, and recommended follow-up protocols based on ACR guidelines.
+
+COMPREHENSIVE REPORT:
+==== LLM Analysis Report ====
+Diagnosis: Malignant (Confidence: 100.00%)
+
+Clinical Data:
+  - Side: Right
+  - View: MLO
+  - BI-RADS: BI-RADS-4
+
+Detailed LLM Report:
+1. Primary Analysis: Mammogram analysis: Case diagnosed as Malignant, Right breast, MLO view, BI-RADS BI-RADS-4. What are the typical findings and recommended follow-up for this type of case?
+
+2. Risk Assessment: For a patient with BI-RADS BI-RADS-4 and diagnosis of Malignant, what are the risk factors and statistical likelihood of malignancy?
+
+3. Treatment Considerations: What are the standard treatment protocols and patient management strategies for a Malignant finding in a BI-RADS-4 categorized mammogram?
+
+
+
+--------------------------------------------------------------------------------
+
+
+
+===== OVERALL STATISTICS =====
+
+Class-Based Performance:
+------------------------------
+Normal    : 8/10 (80.0%)
+Benign    : 8/10 (80.0%)
+Malignant : 7/10 (70.0%)
+
+Overall Accuracy: 23/30 (76.7%)
+
+Precision: 0.8051
+Recall: 0.7667
+F1 Score: 0.7731
+
+Confusion Matrix:
+                Normal  Benign  Malignant
+Normal    :  8       2       0       
+Benign    :  2       8       0       
+Malignant :  0       3       7       
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      Normal       0.62      0.80      0.70        10
+      Benign       1.00      0.70      0.82        10
+   Malignant       0.80      0.80      0.80        10
+
+    accuracy                           0.77        30
+   macro avg       0.81      0.77      0.77        30
+weighted avg       0.81      0.77      0.77        30
+
+
+===== ABLATION STUDY ANALYSIS =====
+
+This test evaluates a model trained with an image-only approach (fusion_mode=0)
+while incorporating LLM analysis during the testing phase to assess its potential contribution.
+
+Training: Image-only model (without LLM integration)
+Testing: Image processing + LLM analysis (for reporting)
+
+This approach allows us to evaluate both the base classification performance of the model
+and the potential value of LLM as a clinical decision support mechanism.
+
+===== TEST COMPLETED =====
