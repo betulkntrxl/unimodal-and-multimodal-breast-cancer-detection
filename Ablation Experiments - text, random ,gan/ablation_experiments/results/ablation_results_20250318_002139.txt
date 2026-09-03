@@ -1,0 +1,99 @@
+ABLATION RESULTS
+=====================
+Date: 2025-03-18 00:21:48
+
+COMPARATIVE PERFORMANCE
+-----------------------
+Text Only:
+  Accuracy: 0.9630
+  F1 Score: 0.9624
+
+Random:
+  Accuracy: 0.8889
+  F1 Score: 0.8780
+
+Gan:
+  Accuracy: 0.8148
+  F1 Score: 0.7766
+
+
+DETAILED RESULTS: TEXT ONLY
+-------------------------
+Classification Report:
+
+accuracy:
+  Score: 0.9630
+
+macro avg:
+  Precision: 0.9697
+  Recall: 0.9524
+  F1-score: 0.9585
+  Support: 54.0
+
+weighted avg:
+  Precision: 0.9663
+  Recall: 0.9630
+  F1-score: 0.9624
+  Support: 54.0
+
+Confusion Matrix:
+               Normal      Benign    Malignant  
+    Normal       20          0           0      
+    Benign       2           12          0      
+  Malignant      0           0           20     
+
+==================================================
+
+DETAILED RESULTS: RANDOM
+----------------------
+Classification Report:
+
+accuracy:
+  Score: 0.8889
+
+macro avg:
+  Precision: 0.9141
+  Recall: 0.8571
+  F1-score: 0.8629
+  Support: 54.0
+
+weighted avg:
+  Precision: 0.9046
+  Recall: 0.8889
+  F1-score: 0.8780
+  Support: 54.0
+
+Confusion Matrix:
+               Normal      Benign    Malignant  
+    Normal       20          0           0      
+    Benign       2           8           4      
+  Malignant      0           0           20     
+
+==================================================
+
+DETAILED RESULTS: GAN
+-------------------
+Classification Report:
+
+accuracy:
+  Score: 0.8148
+
+macro avg:
+  Precision: 0.8745
+  Recall: 0.7619
+  F1-score: 0.7434
+  Support: 54.0
+
+weighted avg:
+  Precision: 0.8605
+  Recall: 0.8148
+  F1-score: 0.7766
+  Support: 54.0
+
+Confusion Matrix:
+               Normal      Benign    Malignant  
+    Normal       20          0           0      
+    Benign       2           4           8      
+  Malignant      0           0           20     
+
+==================================================

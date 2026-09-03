@@ -1,0 +1,194 @@
+{
+    "text_only": {
+        "accuracy": 0.9629629629629629,
+        "f1_score": 0.9624202957536291,
+        "confusion_matrix": [
+            [
+                20,
+                0,
+                0
+            ],
+            [
+                2,
+                12,
+                0
+            ],
+            [
+                0,
+                0,
+                20
+            ]
+        ],
+        "classification_report": {
+            "Normal": {
+                "precision": 0.9090909090909091,
+                "recall": 1.0,
+                "f1-score": 0.9523809523809523,
+                "support": 20.0
+            },
+            "Benign": {
+                "precision": 1.0,
+                "recall": 0.8571428571428571,
+                "f1-score": 0.9230769230769231,
+                "support": 14.0
+            },
+            "Malignant": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1-score": 1.0,
+                "support": 20.0
+            },
+            "accuracy": 0.9629629629629629,
+            "macro avg": {
+                "precision": 0.9696969696969697,
+                "recall": 0.9523809523809524,
+                "f1-score": 0.9584859584859585,
+                "support": 54.0
+            },
+            "weighted avg": {
+                "precision": 0.9663299663299663,
+                "recall": 0.9629629629629629,
+                "f1-score": 0.9624202957536291,
+                "support": 54.0
+            }
+        },
+        "unique_labels": [
+            0,
+            1,
+            2
+        ],
+        "class_names": [
+            "Normal",
+            "Benign",
+            "Malignant"
+        ]
+    },
+    "random": {
+        "accuracy": 0.8888888888888888,
+        "f1_score": 0.8779862113195447,
+        "confusion_matrix": [
+            [
+                20,
+                0,
+                0
+            ],
+            [
+                2,
+                8,
+                4
+            ],
+            [
+                0,
+                0,
+                20
+            ]
+        ],
+        "classification_report": {
+            "Normal": {
+                "precision": 0.9090909090909091,
+                "recall": 1.0,
+                "f1-score": 0.9523809523809523,
+                "support": 20.0
+            },
+            "Benign": {
+                "precision": 1.0,
+                "recall": 0.5714285714285714,
+                "f1-score": 0.7272727272727273,
+                "support": 14.0
+            },
+            "Malignant": {
+                "precision": 0.8333333333333334,
+                "recall": 1.0,
+                "f1-score": 0.9090909090909091,
+                "support": 20.0
+            },
+            "accuracy": 0.8888888888888888,
+            "macro avg": {
+                "precision": 0.9141414141414143,
+                "recall": 0.8571428571428571,
+                "f1-score": 0.862914862914863,
+                "support": 54.0
+            },
+            "weighted avg": {
+                "precision": 0.9046015712682378,
+                "recall": 0.8888888888888888,
+                "f1-score": 0.8779862113195447,
+                "support": 54.0
+            }
+        },
+        "unique_labels": [
+            0,
+            1,
+            2
+        ],
+        "class_names": [
+            "Normal",
+            "Benign",
+            "Malignant"
+        ]
+    },
+    "gan": {
+        "accuracy": 0.8148148148148148,
+        "f1_score": 0.7766019988242211,
+        "confusion_matrix": [
+            [
+                20,
+                0,
+                0
+            ],
+            [
+                2,
+                4,
+                8
+            ],
+            [
+                0,
+                0,
+                20
+            ]
+        ],
+        "classification_report": {
+            "Normal": {
+                "precision": 0.9090909090909091,
+                "recall": 1.0,
+                "f1-score": 0.9523809523809523,
+                "support": 20.0
+            },
+            "Benign": {
+                "precision": 1.0,
+                "recall": 0.2857142857142857,
+                "f1-score": 0.4444444444444444,
+                "support": 14.0
+            },
+            "Malignant": {
+                "precision": 0.7142857142857143,
+                "recall": 1.0,
+                "f1-score": 0.8333333333333334,
+                "support": 20.0
+            },
+            "accuracy": 0.8148148148148148,
+            "macro avg": {
+                "precision": 0.8744588744588745,
+                "recall": 0.7619047619047619,
+                "f1-score": 0.7433862433862434,
+                "support": 54.0
+            },
+            "weighted avg": {
+                "precision": 0.8605098605098604,
+                "recall": 0.8148148148148148,
+                "f1-score": 0.7766019988242211,
+                "support": 54.0
+            }
+        },
+        "unique_labels": [
+            0,
+            1,
+            2
+        ],
+        "class_names": [
+            "Normal",
+            "Benign",
+            "Malignant"
+        ]
+    }
+}
